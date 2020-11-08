@@ -6,7 +6,7 @@ name: CI2
 # events but only for the main branch
 on:
   push:
-    branches: [ main ]
+    branches: [ main, daniel-nis/ci-setup ]
   pull_request:
     branches: [ main ]
 
