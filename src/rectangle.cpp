@@ -1,4 +1,4 @@
-nclude "../header/rectangle.hpp"
+#include "../header/rectangle.hpp"
 
 Rectangle::Rectangle() {
     this->width = 0;
@@ -8,12 +8,13 @@ Rectangle::Rectangle() {
 Rectangle::Rectangle(int w, int h) {
     this->width = w;
     this->height = h;
+}
 
-int get_width() {
+int Rectangle:: get_width() {
     return this->width;
 }
 
-int get_height() {
+int Rectangle:: get_height() {
     return this->height;
 }
 
