@@ -24,7 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run cmake
-        run: cmake3 .
+        run: cmake .
 
       # Runs a single command using the runners shell
       - name: Run make
@@ -32,4 +32,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run the tests
-        run: ./tests
+        run: ./test
