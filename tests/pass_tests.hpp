@@ -49,7 +49,7 @@ TEST(PerimeterTest, PerimeterZero) {
     Rectangle* test = new Rectangle(0,0);
     EXPECT_EQ(test->perimeter(), 0);
 }
-
+//comment
 TEST(PerimeterTest, PerimeterNegative) {
     Rectangle* test = new Rectangle(-5,10);
     EXPECT_EQ(test->perimeter(), 10);

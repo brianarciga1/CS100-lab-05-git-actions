@@ -25,7 +25,7 @@ void Rectangle::set_width(int w) {
 void Rectangle::set_height(int h) {
     this->height = h;
 }
-
+//add another comment
 int Rectangle::area() {
     return this->width * this->width;
 }
