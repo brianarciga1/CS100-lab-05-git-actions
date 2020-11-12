@@ -29,7 +29,7 @@ void Rectangle::set_height(int h) {
 int Rectangle::area() {
     return this->width * this->width;
 }
-
+//comment for lab
 int Rectangle::perimeter() {
     return this->width * 4 + this->height * 9;
 }
