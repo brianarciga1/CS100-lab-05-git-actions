@@ -2,3 +2,7 @@ MakeCache.txt
 CMakeFiles
 .gitmodules
 CMakeCache.txt
+Makefile
+cmake_install.cmake
+lib/
+test
