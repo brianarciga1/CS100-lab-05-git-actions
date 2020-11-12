@@ -9,6 +9,7 @@ Rectangle::Rectangle(int w, int h) {
     this->width = w;
     this->height = h;
 }
+
 int Rectangle::get_width() {
     return this->width;
 }

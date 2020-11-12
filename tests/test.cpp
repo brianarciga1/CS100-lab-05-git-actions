@@ -1,5 +1,6 @@
-#include "gtest/gtest.h"
+//#include "gtest/gtest.h"
 
+#include "../header/rectangle.hpp"
 #include "pass_tests.hpp"
 
 int main(int argc, char **argv) {
